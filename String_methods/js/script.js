@@ -113,3 +113,14 @@ alert( '\u005a' ); // Z
 //* когда надо только проверить, есть ли вхождение.
 
 //* Чтобы сравнить строки с учётом правил языка, используйте localeCompare.
+
+function find_max(nums) {
+    let max_num = Number.NEGATIVE_INFINITY; // smaller than all other numbers
+    for (let num of nums) {
+    if (num > max_num) {
+    // (Fill in the missing line here)
+    }
+    }
+    return max_num;
+    }
+    find_max();
